@@ -120,14 +120,14 @@ terminalOutput.TextWrapped = true
 terminalOutput.Text = ""
 
 local terminalLines = {
-	"[*] Checking Your Data...",
-	"[+] Assembly patch: MOV -> JMP",
-	"[+] Overwriting boot sector...",
-	"[+] Implant dropped at C:\\Windows\\Sys32",
-	"[+] Kernel32.dll injection complete.",
-	"[+] Rebuilding Import Address Table...",
-	"[+] Disconnecting watchdog...",
-	"[+] Trace disabled.",
+	"[*] Preparing UI...",
+	"[+] Adding Titles...",
+	"[+] Adding Descriptions...",
+	"[+] Creating Tabs...",
+	"[+] Creating Buttons...",
+	"[+] Adding titles...",
+	"[+] Connecting code to function...",
+	"[+] Success!",
 	"[+] INTx" .. math.random(0, 999999)
 }
 
