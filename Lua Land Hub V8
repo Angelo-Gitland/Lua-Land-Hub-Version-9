@@ -151,7 +151,7 @@ local function flashAndLoad()
 	gui:Destroy()
 
 	local success, err = pcall(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Lua-Land-Hub-V7/refs/heads/main/Lua%20Land%20Hub%20V7"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Lua-Land-Hub-V8/refs/heads/main/Lua%20Land%20Hub%20V8"))()
 	end)
 	if not success then
 		warn("GUI failed to load: " .. tostring(err))
