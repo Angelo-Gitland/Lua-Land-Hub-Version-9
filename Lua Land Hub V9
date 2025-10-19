@@ -61,11 +61,11 @@ end)
 
 local glitchTexts = {
 	"MOV EAX, [Angelo Official]",
-	"Crack EBP\nMOV ESP",
-	"INT 0x80", "JMP $+4",
-	"Ent EAX, EAX", "STACK_OVERFLOW@0xBADBEEF",
+	"Lua Land Api",
+	"Buttons Api",
+	"Esc User",
 	"ESC (0xc000005)", "RAX: 0xDEADBEEF",
-	"ERROR: SEGFAULT", "DISK_READ_ERROR"
+	"Lua land hub Api"
 }
 
 local function spawnGlitch()
@@ -120,14 +120,14 @@ terminalOutput.TextWrapped = true
 terminalOutput.Text = ""
 
 local terminalLines = {
-	"[*] Preparing UI...",
-	"[+] Adding Titles...",
-	"[+] Adding Descriptions...",
-	"[+] Creating Tabs...",
-	"[+] Creating Buttons...",
-	"[+] Adding titles...",
-	"[+] Connecting code to function...",
-	"[+] Success!",
+	"[*] Welcome to Lua Land Hub!",
+	"[+] The Best Keyless ScriptHub Made By Lua Land!",
+	"[+] Lot Of Tabs & a cool Ui Interface!",
+	"[+] Script Made By LLH Lua Land",
+	"[+] Thank you for using!",
+	"[+] There's A Bugs In some buttons",
+	"[+] We will update this in Halloween!",
+	"[+] Thank you!",
 	"[+] INTx" .. math.random(0, 999999)
 }
 
@@ -151,7 +151,7 @@ local function flashAndLoad()
 	gui:Destroy()
 
 	local success, err = pcall(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Lua-Land-Hub-V8/refs/heads/main/Lua%20Land%20Hub%20V8"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Angelo-Gitland/Lua-Land-Hub-V9/refs/heads/main/Lua%20Land%20Hub%20V9"))()
 	end)
 	if not success then
 		warn("GUI failed to load: " .. tostring(err))
